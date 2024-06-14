@@ -1,0 +1,35 @@
+@import "../assets/styles/variables";
+@import "../assets/styles/mixins";
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  background-color: $secondary-color;
+  background-image: url("../assets/images/hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+  text-align: center;
+
+  .hero-text {
+    flex: 1;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+      font-size: 1.25rem;
+    }
+  }
+
+  .hero-image {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+  }
+}

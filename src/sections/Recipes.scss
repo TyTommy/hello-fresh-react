@@ -1,0 +1,24 @@
+@import "../assets/styles/variables";
+@import "../assets/styles/mixins";
+
+.recipes {
+  padding: 2rem;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  & > p {
+    margin-bottom: 1.5rem;
+  }
+
+  .recipe-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}

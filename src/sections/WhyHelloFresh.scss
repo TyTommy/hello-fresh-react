@@ -1,0 +1,21 @@
+@import "../assets/styles/variables";
+@import "../assets/styles/mixins";
+
+.why-hellofresh {
+  padding: 2rem;
+  background-color: $background-color;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}
